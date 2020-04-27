@@ -4,9 +4,11 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #007ABF;
-  width:80%;
+  width:90%;
+  max-height: 300px;
   border-radius: 20px;
   box-shadow: 0 0px 10px rgba(0, 0, 0, .4);
+  vertical-align: middle;
 }
 
 .wrapper {
@@ -15,23 +17,27 @@
 
  #Layer_1 {
    display: inline-block;
+   position: absolute;
    vertical-align: top;
-   width:175px;
-   margin: 20px 20px 0px;
+   width:45px;
+   left: 11%;
+   margin-top:10px;
+/*    margin: 8px 8px 0px; */
   }
 
 .bio {
   display: inline-block;
-  text-align: left;
-  width: 60%;
-  padding-right: 20px;
+  text-align:center;
+  width: 90%;
+/*   padding-right: 20px; */
 }
 
 h1 {
   vertical-align: top;
-  font-size: 3em;
+  text-align: center;
+  font-size: 2.5em;
   padding-top: 0px;
-  margin-top:20px;
+  margin-top:10px;
   margin-bottom: 10px;
   color:white;
   letter-spacing: 0.04em;
@@ -39,12 +45,65 @@ h1 {
 
 p {
   display: inline-block;
-  font-size: 1.3em;
+  text-align: left;
+  font-size: 1em;
   color: white;
   margin-top: 0px;
   text-indent: 20px;
-  line-height: 1.1;
+  line-height: 1.15;
   
 }
 
+@media (min-width: 480px) {
+  
+  #Layer_1 {
+    width:65px;
+    margin-top:10px;
+  }
+  
+  h1 {
+    margin-top:25px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  
+  h1 {
+    
+  }
+  
+  p {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 768px) {
+  wrapper {
+    
+  }
+  
+  .profile-card {
+    width:95%;
+    max-width: 900px;
+  }
+  
+  #Layer_1 {
+    position: initial;
+    width:175px;
+    margin: 40px 25px 40px -20px;
+  }
+  
+  .bio {
+    width: 60%;
+  }
+  
+  h1 {
+    margin-top:20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+}
 
