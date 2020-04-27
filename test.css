@@ -1,4 +1,5 @@
-body {
+body,
+html{
   max-height: 350px;
 }
 
