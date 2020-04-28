@@ -30,6 +30,18 @@ body {
    margin-top:10px;
   }
 
+.carla .st8 {
+  fill: #ffa080;
+}
+
+.james .st9 {
+  fill: #ffa080;
+}
+
+.james .st10 {
+  fill: #d16b4d;
+}
+
 .bio {
   display: inline-block;
   text-align:center;
