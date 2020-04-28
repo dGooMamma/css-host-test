@@ -1,7 +1,5 @@
-body,
-html{
-  max-height: 350px;
-}
+
+
 
 .profile-card {
   margin-top:0px;
@@ -10,7 +8,7 @@ html{
   margin-right: auto;
   background-color: #007ABF;
   width:90%;
-  max-height: 300px;
+/*   max-height: 300px; */
   border-radius: 20px;
   box-shadow: 0 0px 10px rgba(0, 0, 0, .4);
   vertical-align: middle;
