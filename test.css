@@ -1,5 +1,7 @@
 
-
+body {
+  max-height: 100vh;
+}
 
 .profile-card {
   margin-top:0px;
